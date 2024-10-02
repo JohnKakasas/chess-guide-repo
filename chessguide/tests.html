@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="el-gr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Οδηγός Σκάκι - Ασκήσεις Σκάκι</title>
+  <link rel="icon" type="image/x-icon" href="images/0.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <style>
+
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 17px;
+    background-color: #FFF2E1;
+  }
+  
+  </style>
+  
+  </head>
+  
+      <body>
+              <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+              <script>
+              // Get the button
+              let mybutton = document.getElementById("myBtn");
+              // When the user scrolls down 20px from the top of the document, show the button
+              window.onscroll = function() {scrollFunction()};
+              function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  mybutton.style.display = "block";
+                } else {
+                  mybutton.style.display = "none";
+                }
+              }
+              // When the user clicks on the button, scroll to the top of the document
+              function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+              }
+              </script>
+              <div class="header">
+                <header>
+                  <h1>Οδηγός Σκάκι</h1>
+                </header>
+              </div>
+  
+                  <ul class="topnav">
+                    <li><a href="chessguide.html">Αρχική</a></li>
+                    <li><a href="basics.html">Βασικοί Κανόνες</a></li>
+                    <li><a href="beginner.html">Κανόνες για Αρχάριους</a></li>
+                    <li><a href="intermediate.html">Κανόνες Σκάκι μεσαίας Δυσκολίας</a></li>
+                    <li><a href="advanced.html">Κανόνες για Προχωρημένους</a></li>
+                    <li><a href="tests.html">Ασκήσεις Σκάκι</a></li>
+                    <li><a href="FAQs.html">Συχνές ερωτήσεις</a></li>
+                    <li style="float:right; padding: 10px;">              
+                      <div id="theme-btn" class="far fa-moon"></div>
+                      <script>
+                      const themeBtn = document.getElementById("theme-btn");
+                      themeBtn.onclick = () => {
+                        themeBtn.classList.toggle("fa-sun");
+                        if (themeBtn.classList.contains("fa-sun")) {
+                          document.body.classList.add("changeTheme");
+                        } else {
+                          document.body.classList.remove("changeTheme");
+                        }
+                      }
+                      </script></li>
+                  </ul>
+   
+                  <div class="row">
+                    <div class="col-3 col-s-3 menu">
+                  <ul>
+                    <li><a href="beginner.html#A1">Ματ με Βασίλισσα και Πύργο</a></li>
+                    <li><a href="beginner.html#A2">Ματ με 2 Πύργους</a></li>
+                    <li><a href="beginner.html#A3">Ματ με Βασίλισσα</a></li>
+                    <li><a href="beginner.html#A4">Ματ με Πύργο</a></li>
+                    <li><a href="intermediate.html#B1">Η κλασσική θυσία Αξιωματικού</a></li>
+                    <li><a href="intermediate.html#B2">Η διπλή θυσία των αξιωματικών</a></li>
+                    <li><a href="intermediate.html#B3">Φινάλε Πύργων : Βασικές Θέσεις</a></li>
+                    <li><a href="advanced.html#C1">Το ισχυρό τετράγωνο e5 στη Γαλλική άμυνα</a></li>
+                    <li><a href="advanced.html#C2">Το ισχυρό τετράγωνο d5 στη Σικελική Sveshnikov</a></li>
+                    <li><a href="advanced.html#C3">Ανόμοιοι αξιωματικοί στο μέσον</a></li>
+                    <li><a href="advanced.html#C4">Αντίθετα Ροκέ</a></li>
+                    <li><a href="advanced.html#C5">Απομονωμένο πιόνι</a></li>
+                  </ul>
+                </div>
+  
+
+                <div class="col-6 col-s-9" style="background-color: #0000002a;">
+
+<h2>ΑΣΚΗΣΕΙΣ</h2>
+
+<h4>Maeda,Hyroko (1800)  -  Houstoun,Lynne (1800)</h4>
+
+<h4>[E43]</h4>
+
+<p>Haifa ol (Women) fin-C Haifa (2), 1976</p>
+
+  <img src="images/tests/4.1.png" alt="απεικόνιση">
+
+<p>1) Παίζουν τα λευκά</p>
+
+<h4>Moiseenko,Alexander (2640)  -  Novikov,Igor A (2610)</h4>
+
+<h4>[D47]</h4>
+
+<p>Montreal-A 5th Montreal (3), 2004</p>
+
+ <img src="images/tests/4.2.png" alt="απεικόνιση"> 
+
+<p>3) Παίζουν τα λευκά</p>
+
+<h4>Euwe,Max  -  Christoffel,Martin</h4>
+
+<h4>[D13]</h4>
+
+<p>Staunton mem Groningen (3), 1946</p>
+
+  <img src="images/tests/4.3.png" alt="απεικόνιση">
+
+<p>2)  Παίζουν τα λευκά</p>
+
+<h4>Liss,Eran (2540)  -  Tsesarsky,Ilya (2445)</h4>
+
+<h4>[B49]</h4>
+
+<p>Kfar Sava GP Kfar Sava (3), 19.12.1997</p>
+
+  <img src="images/tests/4.4.png" alt="απεικόνιση">
+
+<p>4) Παίζουν τα λευκά</p>
+
+<h2>ΑΠΑΝΤΗΣΕΙΣ ΤΩΝ ΑΣΚΗΣΕΩΝ</h2>
+
+<h3>Άσκηση 1</h3>
+
+<h4>Maeda,Hyroko (1800)  -  Houstoun,Lynne (1800)</h4>
+
+<h4>[E43]</h4>
+
+<p>Haifa ol (Women) fin-C Haifa (2), 1976</p>
+
+<h4>13.Bxh7+! Kxh7 14.Ng5+ Kg8</h4>
+
+<p>Χάνουν και οι συνέχειες 14...Kh6 15.Nxe6++-; 14...Kg6 15.Qd3+ f5 16.exf6+ Be4 17.Qxe4+ Kh5 18.Qh7+ Kg4 19.Qh3 ματ. </p>
+
+<h4>15.Qh5 Rc8 16.Qxf7+ Kh8 17.Nxe6</h4>
+
+<p>Σε φορσέ ματ οδηγεί η συνέχεια 17.Qh5+ Kg8 18.Qh7+ Kf8 19.Qh8+ Ke7 20.Qxg7+ Kd8 <br>
+  21.Qg8+ Nf8 22.Qxf8+ Kd7 23.Qf7+ Kc6 24.Qxe6+ Qd6 25.Qxd6 ματ.</p>
+
+<h4> 17...Nxe5 18.Qh5+ Kg8 19.Nxc7</h4>
+
+<h4>1–0</h4>
+
+<h3>Άσκηση 2</h3>
+
+<h4>Euwe,Max  -  Christoffel,Martin</h4>
+
+<h4>[D13]</h4>
+
+<p>Staunton mem Groningen (3), 1946</p>
+
+<h4>15.Bxh7+?</h4>
+
+<p>Σε αυτή τη θέση η θυσία είναι λάθος αλλά ακόμα και ο πρώην παγκόσμιος πρωταθλητής Euwe δεν άντεξε στον πειρασμό. <br>
+  Καλύτερη ήταν η συνέχεια 15.Ne5 Rac8 16.Qd3 h6 17.Qe3 με μικρή υπεροχή για τα λευκά]<b> 15...Kxh7 16.Ng5+ Kg6</b> <br>
+  [16...Kg8?? 17.Qh5 Rfc8 18.Qxf7+ Kh8 19.Rc3+-.</p>
+
+<h4> 17.Ne4 Qf4! 18.Nc5 Nd8! 19.Rc3 Rh8 20.Qc2+ f5?</h4>
+
+<p>Επρεπε 20...Kf6 21.Rg3 Ke7–+.</p>
+
+<h4>21.Rg3+ Kf7?</h4>
+
+<p>Τα μαύρα δεν αντέχουν στην πίεση και κάνουν 2ο συνεχόμενο λάθος. Έπρεπε 21...Kh7! 22.Nxb7 Nxb7 23.Qc6 Nd6 <br>
+  24.Qd7 Qxd4 25.Rh3+ Kg6 26.Rg3+ Kh7 27.Rh3+ και ισοπαλία με διαρκές σαχ.</p>
+
+<h4>22.Nxb7 Re8</h4>
+
+<p>22...Nxb7? 23.Qc6+-.</p>
+
+<h4>23.Nc5 Nc6 24.Nd3</h4>
+
+<p>24.Nxe6 Rxe6 25.d5+-.</p>
+
+<p><b> 24...Nxd4 25.Qd1 Qd6 26.f4 Rh8 27.Ne5+ Kg8 28.Rd3 Rd8 29.Kh1 Qb6 30.Nf3 Nc6 <br>
+  31.Rd7 Rxd7?</b>[31...Qb8 32.Ng5 Qc8 33.Rd6±]<b> 32.Qxd7 Nd8 33.Qe8+ Kh7 34.Ng5+</b></p>
+
+<h4>1–0</h4>
+
+<h3>Άσκηση 3</h3>
+
+<h4>Moiseenko,Alexander (2640)  -  Novikov,Igor A (2610)</h4>
+
+<h4>[D47]</h4>
+
+<p>Montreal-A 5th Montreal (3), 2004</p>
+
+<h4>18.Bxa3 Bxa3?</h4>
+
+<p>Λάθος που επιτρέπει τη θυσία Έπρεπε 18...Qd8 19.Bxe7 Qxe7 20.Ra7± ½–½ Milov,V-Hansen,C  Essen 2000.</p>
+
+<h4>19.Bxh7+! Kxh7 20.Ng5+ Kg6</h4>
+
+<p>Χάνουν και οι άλλες απαντήσεις 20...Kg8 21.Qh5 Nf6 22.exf6 Qf5 23.Rxa3+-; 20...Kh6 <br>
+  21.Qd3 Kxg5 22.Rxa3 Qb6 23.f4+ Kh6 24.Qh3+ Kg6 25.Rg3 ματ.</p>
+
+<h4>21.Qd3+ f5</h4>
+
+<p>21...Kxg5 22.f4+ Kh6 23.Qh3+ Kg6 24.f5+ exf5 25.Rf3 f6 26.Rxf5 Rh8 27.Qg4+ Kf7 28.e6++-.</p>
+
+<h4>22.Nxe6 Ra8 23.Rfb1 Rfb8</h4>
+
+<p>23...Bc8 24.Rb3 Nxe5 25.Nxf8+ Kf7 26.Rbxa3 Nxd3 27.Rxa5 Rxa5 28.Rxa5+-.</p>
+
+<h4>24.Nf4+ Kf7 25.Qxf5+ Ke7 26.Qe6+ Kd8 27.Qg8+ Nf8</h4>
+
+<p>27...Kc7 28.Ne6#.</p>
+
+<h4>28.Ne6+ Kc8 29.Nxf8 Qd8 30.Rxa3</h4>
+
+<p>30.Rxa3 Rxa3 31.Qe6+ Kc7 32.Qf7+ Kc8 33.Qf5+ Kc7 34.Ne6++-.</p>
+
+<h4>1–0</h4>
+
+<h3>Άσκηση 4</h3>
+
+<h4>Liss,Eran (2540)  -  Tsesarsky,Ilya (2445)</h4>
+
+<h4>[B49]</h4>
+
+<p>Kfar Sava GP Kfar Sava (3), 19.12.1997</p>
+
+<h4>22.Bxh7+ Kxh7 23.Ng5+ Kg6</h4>
+
+<p>23...Kg8 24.Qh5 Be4 25.Nxe4 g6 26.Qh4+-.</p>
+
+<img src="images/tests/4.5.png" alt="απεικόνιση">
+
+<h4>24.Nxe6!</h4>
+
+<p>24.Qg4?? Bxh2+ 25.Kh1 Qg3–+; 24.Qc2+ f5 25.Nxe6 Qc8 26.Nxf8+ Qxf8 </p>
+<p>27.g4 Be4 (27...Bd4 28.Rxf5 Bxe3+ 29.Kf1+) 28.Qxe4!+-.</p>
+
+<h4>24...fxe625.Qg4+Kh7 26.Rxf8 Bxh2+ 27.Kh1 Qe5 28.Rdd8</h4>
+
+<h4>1–0</h4>
+
+<h2>ΑΣΚΗΣΕΙΣ</h2>
+
+<h4>Junge,Klaus  -  Kottnauer,Cenek</h4>
+
+<h4>[D46]</h4>
+
+<p>Duras 60 mem Prague (8), 1942</p>
+
+<img src="images/tests/4.6.jpg" alt="απεικόνιση">
+ 
+<p><sub>1.</sub> Παίζουν τα λευκά</p>
+
+<h4>Mauro,Alan (2195)  -  Skembris,Spyridon (2465)</h4>
+
+<h4>[B32]</h4>
+
+<p>Cesenatico op Cesenatico (5), 2007</p>
+
+<img src="images/tests/4.7.jpg" alt="απεικόνιση">
+
+<p><sub>2.</sub>Παίζουν τα λευκά</p>
+
+<h4>Pachman,Ludek  -  Neikirkh,Oleg</h4>
+
+<h4>[D41]</h4>
+
+<p>Portoroz Interzonal Portoroz (13), 1958</p>
+
+ <img src="images/tests/4.8.jpg" alt="απεικόνιση">
+
+<p><sub>3.</sub>Παίζουν τα λευκά</p>
+
+<h4>Beliavsky,Alexander G (2640)  -  Tal,Mihail (2610)</h4>
+
+<h4>[E52]</h4>
+
+<p>Aker Brygge Aker Brygge (4), 1989</p>
+
+ <img src="images/tests/4.9.jpg" alt="απεικόνιση">
+
+<p><sub>4.</sub>Παίζουν τα μαύρα</p>
+
+<h2>ΑΠΑΝΤΗΣΕΙΣ ΤΩΝ ΑΣΚΗΣΕΩΝ</h2>
+
+<h3>Άσκηση 1</h3>
+
+<h4>Junge,Klaus  -  Kottnauer,Cenek</h4>
+
+<h4>[D46]</h4>
+
+<p>Duras 60 mem Prague (8), 1942</p>
+
+<h4>17.Bxh7+! Kxh7 18.Qh5+ Kg8 19.Bxg7! f5</h4>
+
+<p>Έχανε και η αποδοχή της θυσίας 19...Kxg7 20.Qg4+ Kh8 21.Rf3 f5 22.Rh3+ Bh4 23.Qxh4+ Kg8 24.Qh8+ Kf7 <br>
+  25.Rh7+ Ke8 (25...Kg6 26.Rh6+ Kf7 27.Rf6+ Ke7 28.Qg7+ Ke8 29.Rxf8 ματ) 26.Qxf8+ Kxf8 27.Rh8+ Kg7 28.Rxb8+-.</p>
+
+<h4>20.Be5 Bf6 21.Bxb8 Rh7 22.Qe2 Rxb8 23.Nd6 Ba6 24.b4 Na4 25.b5 Nc3 26.Qc2 Nxd1 <br>
+  27.Rxd1 Rd8 28.Nxf5 Bb7 29.Nd4 dxc4 30.Qg6+ Bg7 31.Qxe6+ Kh8 32.Qe7</h4>
+<h4> 1–0</h4>
+
+<h3>Άσκηση 2</h3>
+
+<h4>Pachman,Ludek  -  Neikirkh,Oleg</h4>
+
+<h4>[D41]</h4>
+
+<p>Portoroz Interzonal Portoroz (13), 1958</p>
+
+<h4>21.f4!</h4>
+
+<p>Σημαντική κίνηση με διπλό σκοπό: απομακρύνει τη βασίλισσα και δημιουργεί τη δυνατότητα να περάσει ο πύργος από την τρίτη γραμμή.</p>
+
+<h4>Qe7</h4>
+
+<p>21...Qh4 22.Bxg7 Kxg7 23.Rh5.</p>
+
+<h4>22.Bxh7+! Kxh7 23.Qh5+ Kg8 24.Bxg7! f5</h4>
+<p>24...Kxg7 25.Qg4+ Kh7 (25...Kf6 26.Qg5 ματ) 26.Rh5 ματ.</p>
+
+<h4>25.Be5?</h4>
+
+<p>Κέρδιζε η βαριάντα 25.Bxf8 Rxf8 (25...Kxf8 26.Rε1+-) 26.Qg6+ Kh8 27.Rd3 Rf7 28.Rh3+ Rh7 29.Rxh7+ Qxh7 30.Qxe6+-.</p>
+
+<h4>25...Nc4??</h4>
+
+<p>Λάθος που χάνει αμέσως. Έπρεπε 25...Qh7 26.Qg5+ Kf7 27.Qf6+ Ke8 28.Qxe6+ Qe7 29.Qh6 Rxc3 30.d5 Rc2 με περίπλοκη θέση.</p>
+
+<h4>26.Qg6+</h4>
+<h4> 1–0</h4>
+
+<h3>Άσκηση 3</h3> 
+
+<h4>Mauro,Alan (2195)  -  Skembris,Spyridon (2465)</h4>
+
+<h4>[B32]</h4>
+
+<p>Cesenatico op Cesenatico (5), 2007</p>
+
+<h4>14.exd6 Bxd6 15.Bxh7+</h4>
+
+<p>Ο λευκός αποφασίζει να περιπλέξει τη θέση κάνοντας τη θυσία χωρίς να είναι εμφανές το τελικό της αποτέλεσμα. <br>
+  Η ήρεμη συνέχεια είναι 15.Nxd6 Qxd6 16.Qh5 h6 17.Rad1 με μικρή υπεροχή.</p>
+
+<h4>15...Kxh7 16.Qh5+ Kg8 17.Bxg7 Bc5+ 18.Kh1 f6 19.Qh8+ Kf7 20.Bxf8 Bxf8 21.Rae1 21...Bf5 22.Ne5+??</h4>
+
+<p>Λάθος θυσία. Έπρεπε να διαλέξει μια από τις συνέχειες 22.Re2 Rd8 23.Rfe1 ή <br>
+  22.c3 Rd8 23.Qh5+ Bg6 24.Qf3 με περιπλοκές και στις δύο βαριάντες.</p>
+
+<h4>22...fxe5 23.Rxe5 Bg6 24.c4 Nf</h4>
+<h4> 0–1</h4>
+
+<h3>Άσκηση 4</h3>
+
+<h4>Beliavsky,Alexander G (2640)  -  Tal,Mihail (2610)</h4>
+
+<h4>[E52]</h4>
+
+<p>Aker Brygge (4), 1989</p>
+
+<h4>28...Bxh2+?!</h4>
+
+<p>Ο Tal γνωστός για το επιθετικό του στυλ δεν μπορεί να αντισταθεί στον πειρασμό της διπλής θυσίας που όπως θα δούμε είναι ριψοκίνδυνη. <br>
+  Η συνέχεια 28...Bxb1 29.Rxb1 Qd6 30.h3 Bxd4 31.exd4 Qxd4 32.Qxd4 Rxd4 33.Rb2 Rad5 οδηγεί σε ισότητα.</p>
+
+<h4>29.Kxh2 Qh4+ 30.Kg1 Bxg2 31.f4</h4>
+
+<p>31.Kxg2 Qg4+ 32.Kh2 Rd6 33.Rc8+ Kf7 34.Rc7+ Ke8 35.Rc6 οδηγεί σε ισοπαλία.</p>
+
+<h4>31...Bxf1 32.Kxf1 Qh1+ 33.Ke2 Qg2+ 34.Kd3 Qd5 35.Kc3 Rc5+ 36.Kb2</h4>
+ 
+<img src="images/tests/4.10.jpg" alt="απεικόνιση">
+
+<p>Ο λευκός κατάφερε να βρει καταφύγιο για το βασιλιά του στην άλλη πλευρά της σκακιέρας και αποκτά μικρό πλεονέκτημα.</p>
+
+<h4>g6 37.Rg1 Qd6 38.Bd3 Qf6 39.Kb1 Re8 40.Nf3 Rd8 41.Ne5 Kg7 42.Qb2 Rcd5 43.Bc2 43...Rc8 <br>
+  44.Rg2 Rc7 45.Qa3 Qd6 46.Qxd6 Rxd6 47.Bxf5 Rd1+ 48.Kb2 Re1 49.Rg3 Kf6 ½–½</h4>
+
+</div>
+
+</div>
+<div class="footer">
+  <footer>
+    <div style="text-align:center;"> &copy; 2024 Σκακιστική Ένωση Ελλάδος. All rights reserved.</div>
+        </footer>
+      </div>
+      </body>
+  </html>
